@@ -56,7 +56,7 @@ def crop_brain_contour(image, plot=False):
     return new_image
 
 ### Model Architecture
-The CNN model is built using TensorFlow and Keras, with layers such as Conv2D, MaxPooling2D, Flatten, and Dense. 
+The CNN model is built using TensorFlow and Keras, with layers such as Conv2D, MaxPooling2D, Flatten, and Dense:
 code:
 input_shape = (128, 128, 3)
 model_input = Input(shape=input_shape)
